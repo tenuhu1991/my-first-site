@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Мій перший сайт</title>
+
+  <style>
+    body {
+      background-color: #f2f2f2;
+      font-family: Arial;
+      text-align: center;
+      padding-top: 50px;
+    }
+
+    h1 {
+      color: #2c3e50;
+    }
+
+    p {
+      font-size: 18px;
+      color: #555;
+    }
+
+    button {
+      background-color: #3498db;
+      color: white;
+      border: none;
+      padding: 12px 25px;
+      font-size: 16px;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #2980b9;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>Привіт! Це мій перший сайт</h1>
+  <p id="text">Я вчу HTML, CSS і JavaScript 💻</p>
+
+  <button onclick="changeText()">Натисни мене</button>
+<br><br>
+<img src="photo.jpg" width="300">
+
+  <script>
+    function changeText() {
+      document.getElementById("text").innerText =
+        "🔥 Готово! Я вже програмую!";
+    }
+  </script>
+
+</body>
+</html>
